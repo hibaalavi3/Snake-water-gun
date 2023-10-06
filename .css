@@ -1,0 +1,84 @@
+body{
+    background-color: rgb(10, 30, 43);
+    background-size: 20px;
+}
+.container{
+    background-color: rgb(134, 173, 244);
+    max-width: 800px;
+    margin: 35px auto;
+    top: 40%;
+    left: 50%;
+    height: 40rem;
+    border-radius: 50px;
+    width: 35rem;
+    border-width: 50px;
+    border-color: rgb(3, 86, 92);
+    border-style: dashed;
+    border-top: none;
+    border-bottom: none;
+}
+.int{
+    color: rgb(255, 255, 255);
+    padding-left: 14%;
+    font-size: larger;
+    padding-top: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.gm{
+    height: 150px;
+    width: 50px;
+    padding-left: 35%;
+}
+#game{
+    height: 90px;
+    width: 70px;
+    border-radius: 80px;
+    border-width: 20px;
+    border-color: rgb(14, 107, 99);
+    font-size: 40px;
+    align-items: center;
+    padding-left: 50px;
+}
+.cbt{
+    height: 150px;
+    padding-left: 30%;
+}
+#btn{
+    height: 90px;
+    width: 90px;
+    border-radius: 40px;
+    background-color: rgb(0, 128, 105);
+    color:rgb(249, 249, 249);
+    font-size: 20px;
+    border-width: 10px;
+}
+.re{
+    height: 90px;
+    width: 90px;
+    border-radius: 40px;
+    background-color: rgb(0, 128, 105);
+    color:rgb(255, 255, 255);
+    font-size: 20px;
+    border-width: 10px;
+}
+#btn:hover{
+    background: rgb(134, 244, 202);
+    color: brown;
+    /* font-size: 25px; */
+    font-weight: bolder;
+}
+.re:hover{
+    background: rgb(174, 229, 216);
+    color: brown;
+    font-weight: bolder;
+    /* border-color: rgb(78, 59, 144); */
+}
+#result{
+    padding-left: 20%;
+    font-size: 70px;
+    
+}
+#choice{
+    font-size: 30px;
+    padding-left: 10px;
+}
